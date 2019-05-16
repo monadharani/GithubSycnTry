@@ -1,0 +1,82 @@
+*
+{
+	font-family: 'Merriweather', serif;
+}
+
+body
+{
+	background-image: url(LoginBackground.jpg);
+	background-size: cover;
+}
+
+img
+{
+	width="40px";
+	height="40px";
+}
+
+h6
+{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container
+{
+display: grid;
+grid-template-rows : 1fr;
+}
+
+a
+{
+    color: #1B77CF;
+    font-size: 100%;
+    font-family: Georgia;
+}
+
+form
+{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 12px ;
+	margin-top: 10%;
+	margin-left: 37%;
+	margin-right: 37%;
+	box-sizing: border-box;
+}
+
+input {
+  text-align: center;
+}
+
+.text-bottom-border
+{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #497394;
+}
+
+.text-transperent-backround
+{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+footer
+{
+	clear: both;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+button
+{
+	transition: 1s;
+}
+
+button:hover
+{
+	transform: scale(1.1);
+}
